@@ -1,0 +1,172 @@
+.background {
+  background: #3e5151; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #decba4,
+    #3e5151
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #decba4,
+    #3e5151
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+body {
+  position: relative;
+  margin: 0;
+  font-family: "Merriweather", serif;
+  padding: 0;
+  text-align: center;
+}
+.header {
+  margin: 0;
+  padding: 0;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-box {
+  font-size: 23px;
+  padding: 10px;
+}
+.navbar-item {
+  padding: 10px;
+  margin-right: 10px;
+  gap: 10px;
+  text-decoration: none;
+  color: aquamarine;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+.cloud-1 {
+  position: relative;
+  margin-left: 40%;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 500px;
+}
+.H1 {
+  text-align: center;
+  font-family: "Sacramento", cursive;
+  font-size: 100px !important;
+}
+
+.cloud-2 {
+  position: relative;
+
+  margin-right: 40%;
+}
+.mountain {
+  padding-bottom: 5px;
+}
+.about {
+  padding: 10px;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  text-align: center;
+}
+.profile-picture {
+  margin: 40px;
+  border-radius: 50%;
+}
+.line {
+  border: dotted aqua 6px;
+  color: red;
+  width: 4%;
+  text-align: center;
+  margin: 100px auto;
+  border-bottom: none;
+}
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.skill-1 {
+  width: 750px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.img {
+  padding: 10px;
+}
+.content {
+  padding: 10px;
+  width: 350px;
+}
+.skill-2 {
+  width: 750px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 20px;
+  justify-content: center;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  padding: 10px;
+  margin: 10px;
+}
+
+.BTN {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  text-transform: uppercase;
+  background-color: #11cdd4;
+  padding: 10px 20px 10px 20px;
+}
+
+.foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 20vh;
+  background-color: #11cdd4;
+}
+.foot-anchor {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+.BTN:hover {
+  color: whitesmoke;
+  background-color: goldenrod;
+}
+.copyright {
+  font-size: 15px;
+  font-weight: bold;
+}
+a:hover {
+  color: skyblue;
+}
